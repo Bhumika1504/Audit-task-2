@@ -1,0 +1,42 @@
+
+p {
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+
+table.table1, th,td {
+  border: 2px solid black;
+}
+table.table2{
+width: 100%;}
+
+ table.table3,table.table4,table.table5, table.table6, table.table7 , table.table8{
+  width: 60%;
+}
+table.table3 ,table.table4,table.table5, table.table6, table.table7,table.table8{
+  border-collapse: collapse;
+}
+
+table.table4 td {
+  text-align: center;
+}
+
+table.table5 td {
+  height: 40px;
+  vertical-align: bottom;
+}
+
+table.table6 th, table.table6 td {
+  padding: 10px;
+  text-align: left;
+}
+table.table7 th {
+  background-color: #04AA6D;
+  color: black;
+}
+
+
+table.table8 tr:hover {background-color: yellow;}
